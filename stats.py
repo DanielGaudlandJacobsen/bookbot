@@ -30,5 +30,5 @@ def print_report(path, int, lst):
     print(f"--- Report of {path} ---")
     print(f"{int} words found in the document.\n")
     for dict in lst:
-        print(f"The {dict['char']} character was found {dict['num']} times")
+        print(f"{dict['char']}: {dict['num']}")
     print("--- End report ---")
